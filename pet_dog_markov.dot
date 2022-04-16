@@ -1,0 +1,22 @@
+digraph  {
+Weight1;
+Weight2;
+Weight3;
+Weight4;
+Weight1 -> Weight1  [key=0, label="0.3", weight="0.3"];
+Weight1 -> Weight2  [key=0, label="0.2", weight="0.2"];
+Weight1 -> Weight3  [key=0, label="0.2", weight="0.2"];
+Weight1 -> Weight4  [key=0, label="0.3", weight="0.3"];
+Weight2 -> Weight1  [key=0, label="0.2", weight="0.2"];
+Weight2 -> Weight2  [key=0, label="0.3", weight="0.3"];
+Weight2 -> Weight3  [key=0, label="0.2", weight="0.2"];
+Weight2 -> Weight4  [key=0, label="0.3", weight="0.3"];
+Weight3 -> Weight1  [key=0, label="0.2", weight="0.2"];
+Weight3 -> Weight2  [key=0, label="0.2", weight="0.2"];
+Weight3 -> Weight3  [key=0, label="0.3", weight="0.3"];
+Weight3 -> Weight4  [key=0, label="0.3", weight="0.3"];
+Weight4 -> Weight1  [key=0, label="0.2", weight="0.2"];
+Weight4 -> Weight2  [key=0, label="0.2", weight="0.2"];
+Weight4 -> Weight3  [key=0, label="0.2", weight="0.2"];
+Weight4 -> Weight4  [key=0, label="0.4", weight="0.4"];
+}
